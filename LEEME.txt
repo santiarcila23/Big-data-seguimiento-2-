@@ -1,0 +1,7 @@
+Faltan aquí dos archivos grandes que no se incluyeron por su tamaño (~800 MB):
+
+  flights.csv     -> viene en flights_csv.zip / Data.zip del curso
+  taxi_train.csv  -> es el train.csv de la competencia de Kaggle
+                     https://www.kaggle.com/c/nyc-taxi-trip-duration/data
+
+
