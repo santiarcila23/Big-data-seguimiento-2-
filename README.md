@@ -1,8 +1,9 @@
 # Actividad 2 · Big Data
 
 **Institución Universitaria de Envigado — Big Data**
-**Docente:** Andrés Felipe Hernández Marulanda
-**Integrantes:** Natalia Flores Pérez · Santiago Arcila Gutiérrez · Alejandro Restrepo Uribe
+
+- **Docente:** Andrés Felipe Hernández Marulanda
+- **Integrantes:** Natalia Flores Pérez · Santiago Arcila Gutiérrez · Alejandro Restrepo Uribe
 
 Tres bloques de análisis: clasificación de supervivientes del Titanic, exploración de
 retrasos aéreos sobre 5,8 millones de vuelos, y análisis de viajes de taxi en Nueva York
