@@ -17,17 +17,18 @@ las demás.
 
 ### Resultados
 
-| Algoritmo | Variables | Exactitud | F1 | AUC |
-|---|---|---|---|---|
-| Género | `gender` | 0,785 | 0,704 | 0,767 |
-| Clase social | `class` | — | — | 0,682 |
-| Edad (árbol) | `edad` | — | — | 0,581 |
-| Edad (logística) | `edad` | — | — | 0,537 |
-| Completo (árbol) | todas | 0,794 | 0,689 | 0,847 |
-| Completo (bosque) | todas | 0,785 | 0,714 | 0,836 |
+| Algoritmo | Variables | Exactitud | Precisión | Recall | F1 | AUC |
+|---|---|---|---|---|---|---|
+| Género | `gender` | 0,785 | 0,750 | 0,663 | 0,704 | 0,762 |
+| Clase social | `class` | 0,646 | 0,561 | 0,372 | 0,448 | 0,635 |
+| Edad (árbol) | `edad` | 0,632 | 0,667 | 0,093 | 0,163 | 0,581 |
+| Edad (logística) | `edad` | 0,614 | 0,000 | 0,000 | 0,000 | 0,537 |
+| Completo (logística) | todas | 0,794 | 0,763 | 0,674 | 0,716 | 0,823 |
+| Completo (árbol) | todas | 0,794 | 0,823 | 0,593 | 0,689 | 0,847 |
+| Completo (bosque) | todas | 0,785 | 0,732 | 0,698 | 0,714 | 0,836 |
 
-En validación cruzada de cinco particiones: género 0,767 ± 0,018, clase 0,682 ± 0,022,
-edad 0,553 ± 0,032 y modelo completo 0,867 ± 0,032.
+Todos los valores corresponden al conjunto de prueba (223 pasajeros). Los de
+validación cruzada se reportan aparte en el párrafo siguiente.
 
 ### Lectura
 
