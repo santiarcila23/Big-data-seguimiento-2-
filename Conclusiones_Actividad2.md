@@ -137,12 +137,12 @@ hay unas pocas particiones en memoria.
 Su rasgo característico es la **evaluación perezosa**: nada se ejecuta hasta que se llama
 a `.compute()`. En el notebook se ve con claridad, porque `dd.read_csv` sobre un archivo
 de 592 MB devuelve en 0,3 segundos (solo construye el plan) mientras que el `len()`
-posterior tarda 39 segundos, que es cuando lee de verdad.
+posterior tarda 31,3 segundos, que es cuando lee de verdad.
 
 **Cuándo no usarlo.** Dask es más lento que pandas cuando los datos caben en memoria,
 porque dividir, coordinar y volver a juntar tiene un costo fijo. Lo medimos: con las 891
-filas del Titanic, Dask resultó 46 veces más lento. Incluso con 1,4 millones de filas de
-taxis, pandas fue más rápido (0,9 s frente a 2,9 s) porque el archivo aún cabía en
+filas del Titanic, Dask resultó 50 veces más lento. Incluso con 1,4 millones de filas de
+taxis, pandas fue más rápido (0,9 s frente a 2,5 s) porque el archivo aún cabía en
 memoria. La ventaja de Dask no es la velocidad pura, es poder procesar archivos que de
 otro modo tumbarían el programa.
 
