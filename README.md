@@ -107,7 +107,7 @@ septiembre y octubre tienen promedio negativo.
 de demanda. La mediana de duración es de 11,1 minutos.
 
 Medimos también el costo de usar Dask donde no corresponde: con las 891 filas del Titanic
-resultó 46 veces más lento que pandas.
+resultó 50 veces más lento que pandas.
 
 ---
 
